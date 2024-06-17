@@ -6,7 +6,7 @@
 /*   By: lbrahins <lbrahins@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/27 09:52:25 by lbrahins          #+#    #+#             */
-/*   Updated: 2024/06/06 17:26:53 by lbrahins         ###   ########.fr       */
+/*   Updated: 2024/06/17 11:54:08 by lbrahins         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -79,7 +79,7 @@ static char	*fd_reader(int fd, char *stash)
 		if (bytesread == -1)
 			return (free(buffer), NULL);
 		buffer[bytesread] = '\0';
-		stash = ft_strjoin(stash, buffer);
+		stash = ft_strjoiner(stash, buffer);
 	}
 	return (free(buffer), stash);
 }

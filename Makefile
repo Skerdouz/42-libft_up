@@ -30,6 +30,7 @@ SRCS =	$(addprefix $(BASE_DIR), $(addsuffix .c, $(BASE_FILES)))
 GNL_DIR =	$(SRC_DIR)gnl/
 GNL_FILES +=	get_next_line_bonus get_next_line_utils_bonus
 SRCS +=	$(addprefix $(GNL_DIR), $(addsuffix .c, $(GNL_FILES)))
+
 #
 #	PRINTF
 #

@@ -6,7 +6,7 @@
 /*   By: lbrahins <lbrahins@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/27 09:52:22 by lbrahins          #+#    #+#             */
-/*   Updated: 2024/06/07 16:13:34 by lbrahins         ###   ########.fr       */
+/*   Updated: 2024/06/17 11:54:15 by lbrahins         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,7 +40,7 @@ int	search_newline(char *str)
 	return (0);
 }
 
-char	*ft_strjoin(char *old, char *buffer)
+char	*ft_strjoiner(char *old, char *buffer)
 {
 	int		i;
 	int		j;
